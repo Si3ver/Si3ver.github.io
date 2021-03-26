@@ -1,6 +1,7 @@
 ---
-title: 用JavaScript实现单向链表
+title: 【数据结构】单向链表
 sidebar: "auto"
+date: 2020-03-28
 tags:
   - 面试
 categories:

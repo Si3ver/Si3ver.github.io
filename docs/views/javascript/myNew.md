@@ -1,8 +1,10 @@
 ---
-title: 模拟实现new
+title: 【模拟实现】new
 sidebar: "auto"
+date: 2020-03-27
 tags:
   - 面试
+  - 模拟实现
 categories:
   - javascript
 ---
