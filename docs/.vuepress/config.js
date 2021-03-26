@@ -14,4 +14,7 @@ module.exports = {
     ],
     lastUpdated: 'Last Updated',
   },
+  markdown: { 
+    lineNumbers: true,
+  },
 }
