@@ -2,7 +2,8 @@
 
 **技术栈**
 
-+ Vuepress
++ 框架: vuepress
++ 主题: vuepress-theme-reco
 + CI: travis
 
 ## 分支管理
