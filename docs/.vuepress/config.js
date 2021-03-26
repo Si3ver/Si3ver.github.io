@@ -1,6 +1,6 @@
 module.exports = {
   title: 'alwynzhou',
-  description: 'Just playing around',
+  description: '即使没人注视，也要努力成长，许多眼睛都藏在你看不见的地方',
   themeConfig: {
     //   logo: '/assets/img/logo.png',
     nav: [
