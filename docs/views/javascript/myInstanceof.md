@@ -32,6 +32,7 @@ categories:
  */
 function myInstanceofFn (left, right) {
   // 值类型变量
+  if (left == null) return false
   if (['boolean', 'string', 'number'].indexOf(typeof left) > -1) return false
 
   let lProto = left.__proto__
@@ -49,28 +50,35 @@ function myInstanceofFn (left, right) {
 分别测试构造函数不同返回值情况
 
 ```js
+// 测试值类型
 console.log(  // false
   myInstanceofFn(Object.create(null), Object),
   Object.create(null) instanceof Object
 )
-
 console.log(  // false
   myInstanceofFn('abc', Object),
   'abc' instanceof Object
 )
 
-console.log(  // false
-  myInstanceofFn(new String('abc'), Object),
-  new String('abc') instanceof Object
-)
-
+// 测试引用类型
 console.log(  // true
   myInstanceofFn(Array, Object),
   Array instanceof Object
 )
-
 console.log(  // true
   myInstanceofFn(Function, Object),
   Function instanceof Object
+)
+console.log(  // true
+  myInstanceofFn(new String('abc'), String),
+  new String('abc') instanceof String
+)
+console.log(  // true
+  myInstanceofFn(new String('abc'), Object),
+  new String('abc') instanceof Object
+)
+console.log(  // false
+  myInstanceofFn(new String('abc'), Array),
+  new String('abc') instanceof Array
 )
 ```
