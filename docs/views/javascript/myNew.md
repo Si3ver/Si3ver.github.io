@@ -39,15 +39,33 @@ function myNewFn (Con, ...args) {
 
 ### 在浏览器中测试一下
 
+分别测试构造函数不同返回值情况
+
 ```js
-const Person = function (name, age) {
+// 无返回值
+function Person1(name, age) {
   this.name = name
   this.age = age
 }
+// 返回值类型
+function Person2(name, age) {
+  this.name = name
+  this.age = age
+  return 'success'
+}
+// 返回引用类型
+const Person3 = function (name, age) {
+  this.name = name
+  this.age = age
+  return {ret: 'success'}
+}
 
-var p1 = myNewFn(Person, 'Tom', 23)
-var p2 = new Person('Jerry', 24)
-console.log(p1, p2)
-console.log(p1.__proto__ === Person.prototype)  // true
-console.log(p1.__proto__ === p2.__proto__) // true
+let p1 = myNewFn(Person1, 'Tom', 23)
+let p2 = myNewFn(Person2, 'Jerry', 23)
+let p3 = myNewFn(Person3, 'Alice', 23)
+let pa = new Person1('Tom', 23)
+let pb = new Person2('Jerry', 23)
+let pc = new Person3('Alice', 23)
+console.log(p1, p2, p3)
+console.log(pa, pb, pc)
 ```

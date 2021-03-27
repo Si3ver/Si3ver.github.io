@@ -16,42 +16,20 @@ module.exports = {
     lineNumbers: true
   },
   plugins: [
-    '@vuepress/medium-zoom',
-    'flowchart',
+    // 加载动画
     '@vuepress-reco/vuepress-plugin-loading-page',
-    // // 看板娘
-    // [
-    //   "@vuepress-reco/vuepress-plugin-kan-ban-niang",
-    //   {
-    //     theme: ["z16"],
-    //     clean: true,
-    //     modelStyle: {
-    //       position: "fixed",
-    //       right: "0px",
-    //       bottom: "0px",
-    //       opacity: "0.9",
-    //       zIndex: 99999
-    //     }
-    //   }
-    // ],
     // 鼠标点击特效
+    "cursor-effects",
+    // 图片自适应
+    '@vuepress/medium-zoom',
+    // 流程图
+    'flowchart',
+    // 复制代码
     [
-      "cursor-effects",
+      'vuepress-plugin-code-copy',
       {
-        size: 2,                    // size of the particle, default: 2
-        shape: ['circle'],  // shape of the particle, default: 'star'， 可选'circle'
-        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+        successText: '复制成功',
       }
     ],
-    // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-    //   // width: '300px', // 默认 260px
-    //   title: 'xxx',
-    //   body: [
-    //     {
-    //       type: 'image',
-    //       src: '/xxx.jpeg'
-    //     }
-    //   ],
-    // }]
-  ] 
-}  
+  ],
+}

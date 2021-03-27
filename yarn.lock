@@ -1242,11 +1242,6 @@
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
   integrity sha1-Fs8aaETxVsEdUTXGRicMZzQmPrY=
 
-"@vuepress-reco/vuepress-plugin-bulletin-popover@^1.5.7":
-  version "1.5.7"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-bulletin-popover/download/@vuepress-reco/vuepress-plugin-bulletin-popover-1.5.7.tgz#f1f5fac56dd4ec8e2adcae33f18a1e00d6122d9b"
-  integrity sha1-8fX6xW3U7I4q3K4z8YoeANYSLZs=
-
 "@vuepress-reco/vuepress-plugin-comments@^1.6.0":
   version "1.6.0"
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.6.0.tgz#df9fb43ce032d429b4c6defcaef461420593f69f"
@@ -1259,11 +1254,6 @@
     "@vssue/api-gitlab-v4" "^1.1.1"
     valine "^1.4.14"
     vssue "^1.4.6"
-
-"@vuepress-reco/vuepress-plugin-kan-ban-niang@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-kan-ban-niang/download/@vuepress-reco/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
-  integrity sha1-c7RwlPGgevBZI/6a5sJaTDNYYWg=
 
 "@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
   version "1.6.0"
@@ -8584,6 +8574,11 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-code-copy@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-code-copy/download/vuepress-plugin-code-copy-1.0.6.tgz#6431dab764b48b5b203e4936d98b1943651ce4ad"
+  integrity sha1-ZDHat2S0i1sgPkk22YsZQ2Uc5K0=
+
 vuepress-plugin-container@^2.0.2:
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-container/download/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
@@ -8603,11 +8598,6 @@ vuepress-plugin-disqus@^0.2.0:
   integrity sha1-ClveQk+B4Bhe2jb7oj16xMrm/wc=
   dependencies:
     vue-disqus "^3.0.5"
-
-vuepress-plugin-dynamic-title@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-dynamic-title/download/vuepress-plugin-dynamic-title-1.0.0.tgz#867e7a8b821ad35ccfaaafc2358bc129817d422f"
-  integrity sha1-hn56i4Ia01zPqq/CNYvBKYF9Qi8=
 
 vuepress-plugin-feed@^0.1.8:
   version "0.1.9"
