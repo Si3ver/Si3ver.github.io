@@ -8,7 +8,7 @@ categories:
   - 算法
 ---
 
-> 直接上代码
+单向链表是最基础的数据结构之一，就不多解释了，直接上代码
 
 ```js
 class ListNode {
@@ -83,6 +83,28 @@ class LinkedList {
     return this
   }
 }
-
-module.exports = { ListNode, LinkedList }
 ```
+
+测试一下功能
+
+```js
+let link = new LinkedList()
+link.display()  // ''
+    .append(1)
+    .display()  // 1
+    .append(2)
+    .append(3)
+    .append(4)
+    .append(5)
+    .delete(5)
+    .delete(2)
+    .display()  // 1 -> 3 -> 4
+    .reverse()
+    .display()  // 4 -> 3 -> 1
+    .reverse()
+    .display()  // 1 -> 3 -> 4
+
+console.log(link.size)  // 3
+```
+
+大功告成！
