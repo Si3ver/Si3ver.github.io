@@ -3,6 +3,6 @@ home: true
 isShowTitleInHome: false
 bgImage: ' '
 bgImageStyle: {
-  height: '0'
+  height: '1px'
 }
 ---
