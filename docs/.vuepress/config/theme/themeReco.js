@@ -5,7 +5,7 @@ module.exports = {
   authorAvatar: '/logo.png',
   logo: '/logo.png',
   lastUpdated: 'Last Updated', // string | boolean
-  author: 'alwynzhou',
+  author: 'williamzhou',
   // 博客设置
   blogConfig: {
     category: {

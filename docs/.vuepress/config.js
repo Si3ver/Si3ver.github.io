@@ -2,7 +2,7 @@ const themeConfig = require('./config/theme/')
 
 module.exports = {
   base: '/',
-  title: "alwynzhou",
+  title: "williamzhou",
   description: '即使没人注视，也要努力成长，许多眼睛都藏在你看不见的地方',
   dest: 'docs/.vuepress/dist',
   head: [

@@ -52,7 +52,7 @@ const myDeepClone = function (origin, wm = new WeakMap()) {
 
 ```js
 var p1 = {
-  name: 'alwyn',
+  name: 'william',
   age: 12,
   birthday: new Date('1995-09-12'),
   hobby: ['eat', 'sleep', 'code'],
