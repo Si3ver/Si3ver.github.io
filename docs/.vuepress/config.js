@@ -16,8 +16,6 @@ module.exports = {
     lineNumbers: true
   },
   plugins: [
-    // 加载动画
-    '@vuepress-reco/vuepress-plugin-loading-page',
     // 鼠标点击特效
     "cursor-effects",
     // 图片自适应
