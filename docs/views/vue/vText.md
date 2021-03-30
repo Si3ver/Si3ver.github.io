@@ -24,7 +24,7 @@ categories:
 ```js
 class ViewBind {
   constructor ({ el = 'body', data = {}} = {}) {
-    // TODO
+    // 此处实现代码
   }
 }
 /**
@@ -55,6 +55,11 @@ setInterval(() => {
 ```
 
 ### ViewBind类实现
+
+**实现步骤**
+
+1. 数据劫持，劫持 data 的 setter 方法
+2. 更新视图
 
 ```js
 class ViewBind {
@@ -102,6 +107,6 @@ class ViewBind {
 }
 ```
 
-#### 测试一下
+### 测试一下
 
-[点击跳转](/demo/v-text.html)
+[点击跳转](https://si3ver.github.io/demo/v-text.html)
