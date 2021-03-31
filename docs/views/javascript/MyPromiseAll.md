@@ -1,7 +1,7 @@
 ---
 title: 【模拟实现】promiseAll()
 sidebar: "auto"
-date: 2020-03-29
+date: 2021-03-29
 tags:
   - 面试
   - 模拟实现

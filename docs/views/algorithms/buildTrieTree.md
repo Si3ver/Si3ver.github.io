@@ -1,7 +1,7 @@
 ---
 title: 【算法】扁平对象树形化
 sidebar: "auto"
-date: 2020-03-31
+date: 2021-03-31
 tags:
   - 面试
   - trie树

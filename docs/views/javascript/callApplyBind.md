@@ -1,7 +1,7 @@
 ---
 title: 【模拟实现】Call/Apply/Bind
 sidebar: "auto"
-date: 2020-03-24
+date: 2021-03-24
 tags:
   - 面试
   - 模拟实现

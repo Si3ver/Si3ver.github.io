@@ -1,7 +1,7 @@
 ---
 title: 【模拟实现】Object.assign()
 sidebar: "auto"
-date: 2020-03-23
+date: 2021-03-23
 tags:
   - 面试
   - 模拟实现

@@ -1,7 +1,7 @@
 ---
 title: 【模拟实现】instanceof
 sidebar: "auto"
-date: 2020-03-26
+date: 2021-03-26
 tags:
   - 面试
   - 模拟实现
