@@ -11,13 +11,20 @@ categories:
 
 ### 原理
 
-三个方法经常用来改变`this`的指向
+三个方法经常用来改变`this`的指向。
+其中 `call`、`apply`是立即执行的，`bind`返回一个函数下次调用。
 
 + [this](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this)
 + [Function.prototype.call()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 + [Function.prototype.apply()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 + [Function.prototype.bind()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
+### 使用场景
+
+***`call`、`apply`的使用场景***
+
+1. 对象继承
+2. 借用方法
 
 ### 代码实现
 
