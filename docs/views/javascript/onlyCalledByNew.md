@@ -1,7 +1,7 @@
 ---
 title: 【trick】限制函数只能通过new调用
 sidebar: "auto"
-date: 2021-03-13
+date: 2021-04-04
 tags:
   - 面试
   - trick

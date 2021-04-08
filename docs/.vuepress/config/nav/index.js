@@ -5,6 +5,7 @@ module.exports = [
     icon: 'reco-message',
     items: [
       { text: '关于我', link: '/views/about/', icon: 'reco-account' },
+      { text: '掘金', link: 'https://juejin.cn/user/1134351729827575', icon: 'reco-juejin' },
       { text: 'GitHub', link: 'https://github.com/Si3ver', icon: 'reco-github' },
     ]
   }
